@@ -11,7 +11,7 @@ mricol@unal.edu.co - despinelc@unal.edu.co
 
 Descargamos la imagen del sistema operativo linux versión Mint desde la página web oficial https://linuxmint.com/ en este caso elegimos la versión Cinnamon.
 
-![Página web Mint](/../main/Informe 1/images/1 Mint Cinnamon.png)
+![Página web Mint](/../main/Informe1/images/1_Mint_Cinnamon.png)
 
 Descargamos balena etcher para flashear la usb que usaremos como unidad de booteo en el computador.
 
