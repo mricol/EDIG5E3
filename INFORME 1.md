@@ -7,11 +7,11 @@ Rico, Miller - Espinel, Danna.
 
 mricol@unal.edu.co - despinelc@unal.edu.co
 
-##Instalación de Linux.
+## Instalación de Linux.
 
 Descargamos la imagen del sistema operativo linux versión Mint desde la página web oficial https://linuxmint.com/ en este caso elegimos la versión Cinnamon.
 
-Imagen
+![Página web Mint](/../main/Informe 1/images/1 Mint Cinnamon.png)
 
 Descargamos balena etcher para flashear la usb que usaremos como unidad de booteo en el computador.
 
@@ -21,21 +21,21 @@ Imagen Flasheo Etcher
 
 Instalamos limpiamente el sistema operativo en el computador
 
-##Instalación de Herramientas
+## Instalación de Herramientas
 
-###Miniconda
+### Miniconda
 Instalamos el paquete de recursos miniconda descargando el instalador desde la página web oficial en la sección de descargas para Linux: https://docs.conda.io/en/latest/miniconda.html#linux-installers
 
 En la terminal, localizamos la carpeta de descargas y ejecutamos el instalador.
 
-###Digital
+### Digital
 Descargamos el archivo Digital.zip del repositorio, lo ubicamos en una carpeta de trabajo  y lo extraemos.
 
 Desde la terminal localizamos la carpeta y ejecutamos el programa:
 
 Imagen Digital
 
-###yosys y verilog
+### yosys y verilog
 
 Al intentar la primera instalación de las herramientas yosys y verilog falla su instalación, esto debido a la versión de Python:
 
@@ -43,7 +43,7 @@ Imagen Error verilog
 
 Imagen Error yosys
 
-##Método limpio de instalación de herramientas.
+## Método limpio de instalación de herramientas.
 
 Para instalar las herramientas necesarias sin problemas seguimos los siguientes pasos:
 
