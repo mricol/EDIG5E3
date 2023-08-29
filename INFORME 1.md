@@ -33,22 +33,26 @@ Descargamos el archivo Digital.zip del repositorio, lo ubicamos en una carpeta d
 
 Desde la terminal localizamos la carpeta y ejecutamos el programa:
 
-Imagen Digital
+![Página web Mint](/4Digital1.png)
+![Página web Mint](/5Digital2.png)
 
 ### yosys y verilog
 
 Al intentar la primera instalación de las herramientas yosys y verilog falla su instalación, esto debido a la versión de Python:
 
-Imagen Error verilog
+![Página web Mint](/7ErrorVerilog.png)
 
-Imagen Error yosys
+![Página web Mint](/8ErrorYosys.png)
+
 
 ## Método limpio de instalación de herramientas.
 
 Para instalar las herramientas necesarias sin problemas seguimos los siguientes pasos:
 
 1. Actualizamos miniconda en el entorno base con el comando: conda update conda
+![Página web Mint](/9Conda.png)
 2. Creamos el entorno digital y establecemos la versión de Python en la 3.10 con el comando: conda create -n digital python=3.10
+![Página web Mint](/7ErrorVerilog.png)
 3. Cambiamos el entorno al digital previamente definido: conda activate digital
 4. Una vez en este entorno podemos instalar las herramientas siempre y cuando la versión de Python sea la 3.10, para verificar esto ejecutamos el comando: python --version
 5. Instalamos las herramienta gtkwave y graphviz con los comandos: conda install -c conda-forge gtkwave y conda install -c conda-forge graphviz
