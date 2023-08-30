@@ -58,15 +58,15 @@ Para instalar las herramientas necesarias sin problemas seguimos los siguientes 
 3. Cambiamos el entorno al digital previamente definido: `conda activate digital`
 ![Página web Mint](/13Digital.png)
 
-4. Instalamos las herramienta gtkwave y graphviz con los comandos: conda install -c conda-forge gtkwave y conda install -c conda-forge graphviz
+4. Instalamos las herramienta gtkwave y graphviz con los comandos: `conda install -c conda-forge gtkwave` y `conda install -c conda-forge graphviz`
 ![Página web Mint](/14gtkwave.png)
 ![Página web Mint](/15gtkwave.png)
 ![Página web Mint](/16graphviz.png)
 ![Página web Mint](/17graphviz.png)
-5. Instalamos las herramientas yosys y verilog con los comandos: conda install -c "litex-hub" yosys y conda install -c "litex-hub" iverilog
+5. Instalamos las herramientas yosys y verilog con los comandos: `conda install -c "litex-hub" yosys` y `conda install -c "litex-hub" iverilog`
 ![Página web Mint](/18yosys.png)
 ![Página web Mint](/19iverilog.png)
-6. Instalamos la nueva herramienta netlistsvg con el comando: conda install -c symbiflow netlistsvg
+6. Instalamos la nueva herramienta netlistsvg con el comando: conda install `-c symbiflow netlistsvg`
 ![Netlist](/20Netlist.png)
 
 
