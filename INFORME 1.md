@@ -49,16 +49,25 @@ Al intentar la primera instalación de las herramientas yosys y verilog falla su
 
 Para instalar las herramientas necesarias sin problemas seguimos los siguientes pasos:
 
-1. Actualizamos miniconda en el entorno base con el comando: conda update conda
+1. Actualizamos miniconda en el entorno base con el comando: `conda update conda`
 ![Página web Mint](/9Conda.png)
-2. Creamos el entorno digital y establecemos la versión de Python en la 3.10 con el comando: conda create -n digital python=3.10
-![Página web Mint](/7ErrorVerilog.png)
-3. Cambiamos el entorno al digital previamente definido: conda activate digital
-4. Una vez en este entorno podemos instalar las herramientas siempre y cuando la versión de Python sea la 3.10, para verificar esto ejecutamos el comando: python --version
-5. Instalamos las herramienta gtkwave y graphviz con los comandos: conda install -c conda-forge gtkwave y conda install -c conda-forge graphviz
-6. Instalamos las herramientas yosys y verilog con los comandos: conda install -c "litex-hub" yosys y conda install -c "litex-hub" iverilog
-7. Verificamos las versiones de yosys y verilog:
-8. Instalamos la nueva herramienta netlistsvg con el comando: conda install -c symbiflow netlistsvg
+![Página web Mint](/10Conda2.png)
+2. Creamos el entorno digital y establecemos la versión de Python en la 3.10 con el comando: `conda create -n digital python=3.10`
+![Página web Mint](/11Python.png)
+![Página web Mint](/12Python2.png)
+3. Cambiamos el entorno al digital previamente definido: `conda activate digital`
+![Página web Mint](/13Digital.png)
+
+4. Instalamos las herramienta gtkwave y graphviz con los comandos: conda install -c conda-forge gtkwave y conda install -c conda-forge graphviz
+![Página web Mint](/14gtkwave.png)
+![Página web Mint](/15gtkwave.png)
+![Página web Mint](/16graphviz.png)
+![Página web Mint](/17graphviz.png)
+5. Instalamos las herramientas yosys y verilog con los comandos: conda install -c "litex-hub" yosys y conda install -c "litex-hub" iverilog
+![Página web Mint](/18yosys.png)
+![Página web Mint](/19iverilog.png)
+6. Instalamos la nueva herramienta netlistsvg con el comando: conda install -c symbiflow netlistsvg
+![Netlist](/20Netlist.png)
 
 
 
